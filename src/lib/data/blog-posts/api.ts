@@ -27,7 +27,7 @@ export const getPosts = async (page?: number, count?: number, showHidden = false
   for (const mdFile of paginatedMdFiles) {
     const fileContent = await fs.readFile(`${MD_FILES_PATH}/${mdFile}`, 'utf-8');
     const parsedData = grayMatter(fileContent);
-    blogPosts.push(frontmatterToBlogPost(parsedData.data, parsedData.content));
+    blogPosts.push(frontmatterToBlogPost(parsedData.data, parsedData.content, mdFile));
   }
 
   return {

@@ -1,6 +1,6 @@
 <div class="resume-title">
-	<h1>Matheus Fantinel</h1>
-	<h5>Web Developer</h5>
+	<h1>Nguyen Chi Linh</h1>
+	<h5>Software Engineer</h5>
 </div>
 
 <style lang="scss">

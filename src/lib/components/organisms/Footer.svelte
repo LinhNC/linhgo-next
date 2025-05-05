@@ -12,7 +12,7 @@
 	</div>
 	<div class="content">
 		<div class="copyright">
-			© {currentYear} Matheus Fantinel. Made in Brazil.
+			© {currentYear} LinhGo. Made in LinhNC.
 		</div>
 		<div class="credits">
 			Powered by <a href="https://kit.svelte.dev/" target="_blank" rel="noopener noreferrer"

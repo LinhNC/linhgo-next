@@ -16,11 +16,11 @@
 				<div class="meta">
 					<img
 						class="author-photo"
-						src="https://www.gravatar.com/avatar/03096594216040d3777c75862fde89a5?s=100"
-						alt="Matt Fantinel"
+						src="https://1.gravatar.com/avatar/0f80ac3efeaec56449e6bd4d412d85d7ca8a939d56c953647ca2883630473832?size=100"
+						alt="Nguyen Chi Linh"
 					/>
 					<div class="details">
-						<p class="note">by Matt Fantinel</p>
+						<p class="note">by Nguyen Chi Linh</p>
 						<p class="note">{dateformat(post.date, 'UTC:dd mmm yyyy')} - {post.readingTime}</p>
 						{#if post.updated}
 							<p class="note">Updated {dateformat(post.updated, 'UTC:dd mmm yyyy')}</p>

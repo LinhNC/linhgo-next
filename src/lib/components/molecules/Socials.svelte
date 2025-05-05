@@ -8,16 +8,16 @@
 </script>
 
 <div class="socials">
-	<a
+<!--	<a
 		href="https://hachyderm.io/@fantinel"
 		target="_blank"
 		rel="me noreferrer"
 		title="Say Hi on Mastodon"
 	>
 		<MastodonIcon />
-	</a>
+	</a>-->
 	<a
-		href="https://github.com/MatFantinel"
+		href="https://github.com/LinhNC"
 		target="_blank"
 		rel="me noopener noreferrer"
 		title="See my GitHub profile"
@@ -25,7 +25,7 @@
 		<GitHubIcon />
 	</a>
 	<a
-		href="https://www.linkedin.com/in/matheus-fantinel/"
+		href="https://www.linkedin.com/in/LinhNC/"
 		target="_blank"
 		rel="me noopener noreferrer"
 		title="Connect on LinkedIn"
@@ -33,10 +33,10 @@
 		<LinkedInIcon />
 	</a>
 	<a
-		href="mailto:matt@fantinel.dev"
+		href="mailto:info@linhgo.com"
 		target="_blank"
 		rel="noopener noreferrer"
-		title="Send an email to matt@fantinel.dev"
+		title="Send an email to info@linhgo.com"
 	>
 		<EmailIcon />
 	</a>

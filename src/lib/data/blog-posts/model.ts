@@ -22,14 +22,14 @@ type BlogPost = {
   hidden?: boolean
 }
 
-export const frontmatterToBlogPost = (frontmatter: any, content: string): BlogPost => {
+export const frontmatterToBlogPost = (frontmatter: any, content: string, mdFile: string): BlogPost => {
   // if frontmatter.updated is before frontmatter.date, set updated to null
   if (frontmatter.updated && frontmatter.date && frontmatter.updated < frontmatter.date) {
     frontmatter.updated = null;
   }
 
   return {
-    slug: frontmatter.slug,
+    slug: frontmatter.slug ?? mdFile.replace('.md', ''),
     title: frontmatter.title,
     excerpt: frontmatter.excerpt,
     content: content,
